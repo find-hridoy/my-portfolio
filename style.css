@@ -1,0 +1,109 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 40px;
+    line-height: 1;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    color: dimgray;
+}
+.diff-color{
+    color: orange;
+}
+.content{
+    margin-top: 60px;
+}
+.header-section{
+    background: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    height: 550px;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
+.link-btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 25px 10px;
+    background: linear-gradient(90deg, orange, red);
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+.button1::before{
+    content: 'Hire Me';
+    position: absolute;
+    transition: .5s;
+    transform: scale(5);
+   color: transparent;
+}
+.button1:hover::before{
+    transform: scale(1);
+    color: white;
+}
+.button2::before{
+    content: 'Download Resume';
+    position: absolute;
+    transition: .5s;
+    transform: scale(5);
+    color: transparent;
+}
+.button2:hover::before{
+    transform: scale(1);
+    color: white;
+}
+.dream-section{
+    background: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    height: 550px;
+    background-position: right;
+}
+.experience-section{
+    background: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 450px;
+}
+.ex-title{
+    margin-left: 4.7%;
+}
+.ex-title h1{
+    font-size: 35px;
+}
+.ex-part h1{
+    font-size: 28px;
+}
+.ex-part{
+    box-shadow: 10px 10px 40px gray;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+    border-left: 5px solid;
+    border-radius: 5px;
+    height: 240px;
+    background: white;
+}
+.ex-part:last-child{
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left: 5px solid;
+}
+footer{
+    text-align: center;
+    height: 50px;
+}
